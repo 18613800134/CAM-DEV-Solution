@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Common.DiskOperation", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Common.Config", "..\CAM.Common.Config\src\CAM.Common.Config\CAM.Common.Config.csproj", "{455558C3-68B6-485B-AEFE-5BB495E24864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Common.Cache", "..\CAM.Common.Cache\src\CAM.Common.Cache\CAM.Common.Cache.csproj", "{755C6C30-3209-4852-9B66-28EBFDB3583A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{455558C3-68B6-485B-AEFE-5BB495E24864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{455558C3-68B6-485B-AEFE-5BB495E24864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{455558C3-68B6-485B-AEFE-5BB495E24864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755C6C30-3209-4852-9B66-28EBFDB3583A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755C6C30-3209-4852-9B66-28EBFDB3583A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755C6C30-3209-4852-9B66-28EBFDB3583A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755C6C30-3209-4852-9B66-28EBFDB3583A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{5ED8B1A5-2FE5-4A41-AFDB-49251ECB5107} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{F110DF83-84C8-494B-A7AB-B488308F9156} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{455558C3-68B6-485B-AEFE-5BB495E24864} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
+		{755C6C30-3209-4852-9B66-28EBFDB3583A} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 	EndGlobalSection
 EndGlobal
