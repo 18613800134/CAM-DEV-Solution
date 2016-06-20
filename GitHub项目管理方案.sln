@@ -33,6 +33,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Core", "03 Core", "{4BF7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Core", "..\CAM.Core\src\CAM.Core\CAM.Core.csproj", "{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Logic", "02 Logic", "{5EC9BFE9-448D-4BAA-9283-062EE949BB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAuth", "..\CTOOLBOX-CAuth\src\CAuth\CAuth.csproj", "{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 TestUtils", "06 TestUtils", "{160C1BD2-6149-49D0-88EF-B9C2A755DCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestForCAuth", "..\CTOOLBOX-CAuth\tests\UnitTestForCAuth\UnitTestForCAuth.csproj", "{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +95,14 @@ Global
 		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +120,8 @@ Global
 		{DDBF7F62-D807-470B-8781-1A2CEF17A9F3} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{B09B28BA-57F2-4687-BC58-81488C524AC0} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726} = {4BF77BF9-4141-4FCD-AAD3-E34C862B4279}
+		{D6EF3049-3B6F-42D9-965B-3E6FB5D108A7} = {5EC9BFE9-448D-4BAA-9283-062EE949BB9D}
+		{9E0DF740-F4E8-4A6B-8EA8-48BD9D737986} = {160C1BD2-6149-49D0-88EF-B9C2A755DCAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45
