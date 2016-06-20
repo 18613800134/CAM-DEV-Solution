@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Common.QueryMaker", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Common.Data", "..\CAM.Common.Data\src\CAM.Common.Data\CAM.Common.Data.csproj", "{B09B28BA-57F2-4687-BC58-81488C524AC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Core", "03 Core", "{4BF77BF9-4141-4FCD-AAD3-E34C862B4279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAM.Core", "..\CAM.Core\src\CAM.Core\CAM.Core.csproj", "{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,10 @@ Global
 		{B09B28BA-57F2-4687-BC58-81488C524AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09B28BA-57F2-4687-BC58-81488C524AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09B28BA-57F2-4687-BC58-81488C524AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +103,9 @@ Global
 		{7DDB0134-4FA2-40F0-9D2C-E396BDAF1966} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{DDBF7F62-D807-470B-8781-1A2CEF17A9F3} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
 		{B09B28BA-57F2-4687-BC58-81488C524AC0} = {944DAE2D-8E14-426E-A471-A6086C8AD3BE}
+		{AFE94D4F-D050-49EB-A42D-8CD83ABF9726} = {4BF77BF9-4141-4FCD-AAD3-E34C862B4279}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Validation.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
